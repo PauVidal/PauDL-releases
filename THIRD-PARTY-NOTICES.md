@@ -30,8 +30,10 @@ PauDL no incluye ni redistribuye estos programas. Los descarga de su fuente ofic
 |---|---|---|---|
 | yt-dlp | PauDL lo descarga de la release oficial y comprueba su SHA-256 | The Unlicense (dominio público) | https://github.com/yt-dlp/yt-dlp |
 | bgutil-ytdlp-pot-provider | PauDL lo descarga de su repositorio oficial, sin modificarlo, si configuras el PO Token | GNU GPL v3.0 | https://github.com/Brainicism/bgutil-ytdlp-pot-provider |
-| FFmpeg | Lo instalas tú; PauDL solo lo detecta y lo usa | LGPL 2.1 o posterior / GPL según la compilación | https://ffmpeg.org/legal.html |
-| Deno | Lo instalas tú; PauDL solo lo detecta y lo usa | MIT | https://github.com/denoland/deno |
+| FFmpeg | Desde la 0.3.6, PauDL lo descarga cuando pulsas Instalar: la compilación LGPL para Windows de BtbN/FFmpeg-Builds, sin modificar, comprobando su SHA-256. Si ya lo tenías instalado, PauDL usa el tuyo | LGPL (versión 2.1 o 3, según la configuración de cada compilación; la variante LGPL de BtbN excluye las bibliotecas solo GPL, como libx264). Los scripts de compilación de BtbN son MIT | https://ffmpeg.org/legal.html · https://github.com/BtbN/FFmpeg-Builds |
+| Deno | Desde la 0.3.6, PauDL lo descarga cuando pulsas Instalar: el ZIP oficial para Windows, sin modificar, comprobando su SHA-256. Si ya lo tenías instalado, PauDL usa el tuyo | MIT | https://github.com/denoland/deno |
+
+El código fuente de FFmpeg correspondiente a cada compilación de BtbN está enlazado en la propia release de BtbN (commit de FFmpeg del que parte) y en https://ffmpeg.org/download.html.
 
 ## Material propio
 

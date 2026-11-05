@@ -18,7 +18,7 @@ PauDL funciona en tu equipo y no recoge ni envía datos sobre ti, sobre lo que d
 
 - **Descargar lo que le pides**, desde la web de origen, igual que lo haría tu navegador.
 - **Buscar versiones nuevas** en este repositorio de GitHub, como mucho cada 6 horas. GitHub ve tu dirección IP y la versión de PauDL, como en cualquier visita a su web ([política de privacidad de GitHub](https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement)).
-- **Instalar o actualizar yt-dlp y el PO Token**, solo cuando lo pides, desde sus repositorios oficiales en GitHub.
+- **Instalar o actualizar yt-dlp, FFmpeg, Deno y el PO Token**, solo cuando lo pides, desde sus repositorios oficiales en GitHub.
 
 La configuración (carpeta de destino, preferencias) se guarda en tu equipo, en `%LOCALAPPDATA%\PauDL` y en el almacenamiento local de la extensión.
 
